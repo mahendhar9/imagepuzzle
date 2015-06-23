@@ -1,0 +1,61 @@
+.first-row {
+    margin-top:25px;
+}
+
+.pad {
+	width: 16% !important;
+	padding:0;
+	margin:0;
+    }
+
+.border1 {
+     border:1px solid #fff;
+    
+}
+
+.column1 {
+    width: 7.33% !important;
+}
+
+.controls {
+    margin:20px 0px 150px 50px;
+    
+}
+
+.undo {
+    margin-top:9px;
+    
+}
+
+.undo button:first-child {
+    margin-left:70px;
+}
+
+.badge {
+    margin-left:50px;
+}
+
+.controls9 {
+    position:relative;
+    left:55%;
+    transform:translateX(-55%);
+}
+
+.controls9 button {
+    margin-left:20px;
+}
+
+.controls9 h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+
+}
+
+.instructions p {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-weight:600;
+    font-size: 18px;
+    color:#444;
+}
