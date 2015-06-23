@@ -1,5 +1,9 @@
 $(document).ready(function() {
   new WOW().init();
+  $('#original').click(function(){
+  bootbox.alert('<img class="img-responsive" src="img/source-img.jpg"/>');
+});
+
   // orderColumnsRandomly();
     
     $('#toggleGrid').click(function(){
@@ -124,7 +128,7 @@ if (count==23) {
 
 }
 else {
-  alert("Sorry, the puzzle is incomplete");
+  alert("Sorry, the puzzle is incomplete.");
   console.log(count);
 }
 
